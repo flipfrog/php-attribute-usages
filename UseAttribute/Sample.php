@@ -4,12 +4,12 @@ namespace flipfrog\AttributeUsages\UseAttribute;
 
 class Sample
 {
-    #[RequestValidator(len: 2)]
+    #[RequestValidator(num_args: 1, num_props: 2)]
     public function method1($params): void {
         echo "Succeeded method1 call\n";
     }
 
-    #[RequestValidator(len: 5)]
+    #[RequestValidator(num_args: 1, num_props: 5)]
     public function method2($params): void {
         echo "Succeeded method2 call\n";
     }
