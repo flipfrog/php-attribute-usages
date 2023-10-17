@@ -1,8 +1,8 @@
 <?php
 
-use UseTrait\Sample;
+namespace flipfrog\AttributeUsages\UseTrait;
 
-require_once 'UseTrait/Sample.php';
+require_once 'vendor/autoload.php';
 
 $sample = new Sample();
 

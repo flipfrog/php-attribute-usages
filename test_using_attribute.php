@@ -1,11 +1,12 @@
 <?php
 
-require_once 'UseAttribute/Container.php';
-require_once 'UseAttribute/Sample.php';
+namespace flipfrog\AttributeUsages\UseAttribute;
+
+require_once 'vendor/autoload.php';
 
 // Somehow be able to trace by IDEs
-/** @var UseAttribute\Sample $container */
-$container = new UseAttribute\Container(new UseAttribute\Sample());
+/** @var Sample $container */
+$container = new Container(new Sample());
 
 $container->method1([]);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UseTrait;
+namespace flipfrog\AttributeUsages\UseTrait;
 
 trait InterceptionTrait {
     public function __call($method, $arguments) {

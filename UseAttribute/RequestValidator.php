@@ -1,6 +1,6 @@
 <?php
 
-namespace UseAttribute;
+namespace flipfrog\AttributeUsages\UseAttribute;
 
 #[\Attribute(\Attribute::TARGET_METHOD)]
 class RequestValidator

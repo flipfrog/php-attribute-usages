@@ -1,6 +1,6 @@
 <?php
 
-namespace UseTrait;
+namespace flipfrog\AttributeUsages\UseTrait;
 
 require_once 'UseTrait/InterceptionTrait.php';
 

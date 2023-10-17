@@ -1,8 +1,6 @@
 <?php
 
-namespace UseAttribute;
-
-require_once 'RequestValidator.php';
+namespace flipfrog\AttributeUsages\UseAttribute;
 
 class Container
 {
