@@ -22,7 +22,7 @@ class Container
             });
             if(count($attrs) > 0) {
                 /** @var RequestValidator $validator */
-                $validator = $attrs[0]->newInstance();
+                $validator = reset($attrs)->newInstance();
                 $valid = $validator->validate($arguments);
             } else {
                 $valid = true;
